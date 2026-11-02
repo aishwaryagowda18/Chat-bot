@@ -1,0 +1,28 @@
+{
+  "name": "nova-chatbot",
+  "version": "1.0.0",
+  "description": "A simple, real-time AI chatbot with streaming responses, chat history and a clean responsive UI, powered by Google Gemini.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "gemini",
+    "google-genai",
+    "express",
+    "streaming"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.32.0",
+    "express": "^5.3.0"
+  }
+}
